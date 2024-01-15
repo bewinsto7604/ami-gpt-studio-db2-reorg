@@ -1,0 +1,5 @@
+Following error_reason_cd are used in the BMC AMI Reorg for Db2
+
+  Column                        Description
+  NGTZ170                       ERROR OCCURRED IN STATEMENT NUMBER statementNumber. There is a syntax error in the specified statement. Fix for NGTZ170 - Review the syntax diagram for the 				NGT product that you are running.
+  OBJTERM			Means error occurred during processing	OBJTERM in the ERROR_REASON_CD column of the OBJECT history table means an error occurred during processing and a 				previous error message was not found for the object. Fix for OBJTERM -Review job output for other errors. BMC is continuing to capture more errors to 				        eliminate this reason code to make diagnostics easier.  As of SPE2310, Utilities will capture more messages to add to to ERROR_REASON_CD Field for faster 				resolution. 
